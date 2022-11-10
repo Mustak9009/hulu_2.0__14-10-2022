@@ -1,6 +1,6 @@
 import React from "react";
 import Head from "next/head";
-import { Header, NavBar, Result } from "../Components";
+import { Header, NavBar, Result } from "../components";
 import Request from "../utils/requests";
 export default function index({ results }) {
   return (
