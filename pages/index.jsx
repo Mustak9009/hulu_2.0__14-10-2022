@@ -4,14 +4,14 @@ import { Header, NavBar, Result } from "../Components";
 import Request from "../utils/requests";
 export default function index({ results }) {
   return (
-    <>
+    <div>
       <Head>
           <title>Hulu2.0</title>
       </Head>
       <Header />
       <NavBar />
       <Result results={results} />
-    </>
+    </div>
   );
 }
 export async function getServerSideProps(context) {
